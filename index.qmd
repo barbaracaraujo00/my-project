@@ -16,29 +16,58 @@ format:
       light: minty
       dark: superhero
     self-contained: true
-    lang: pt
+    lang: en
+    bibliography: biblio.bib
+    citation-location: margin
 ---
 
 # Presentation
-This is Bárbara's website!
+This is Bárbara's website! This could be a normal website with a picture of a turtle (it was before), but I decided to give it a bit of character.
 
-And this is a turtle
-![A turtle](img/hawksbill_sea_turtle.jpg){#fig-turtle}
+If you're reading this is because you know that Britney was right in 2007 :).
 
-The @fig-turtle is cute
+This is a citation for [@ggplot]!
+
+And this is a Britney when she went mad.
+
+![a turtle](img/hawksbill_sea_turtle.jpg){#fig-turtle}
+
+The @fig-turtle is not doing okay.
 
 [Link to something](https://open.spotify.com/track/6I9VzXrHxO9rA9A5euc8Ak?autoplay_ok=1)
 
 ## Sub presentation
 
-Sub section.
+Why this equation? I don't really know if this even exists.
 
 $$z= \dfrac{1-\mu}{\sigma}$${#eq-myequation}
 
 ### Sub sub section
 
 In @eq-myequation , we wrote down an equation.
+
+@eq-ctt shows the basic equation in classic test theory.
+
+:::{.column-margin}
+
+$$X= v+E$${#eq-ctt}
+:::
  
 #### My paragraph
 
 This is a paragraph.
+
+
+:::{.grid}
+
+:::{.g-col-4}
+This is my first column
+:::
+:::{.g-col-4}
+This is my second column
+:::
+:::{.g-col-4}
+This is my third column
+:::
+
+:::
