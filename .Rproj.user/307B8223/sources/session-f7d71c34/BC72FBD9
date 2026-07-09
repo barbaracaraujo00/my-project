@@ -3,7 +3,7 @@
     "path": "~/my-project/code-chunks.qmd",
     "project_path": "code-chunks.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "4073545065",
     "contents": "",
     "dirty": false,
     "created": 1783591408826.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "86,0",
-        "scrollLine": "69"
+        "cursorPosition": "12,45",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1783593934,
+    "lastKnownWriteTime": 1783594609,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1783593934458,
+    "last_content_update": 1783594609678,
     "read_only": false,
     "read_only_alternatives": []
 }
