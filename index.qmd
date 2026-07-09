@@ -22,13 +22,22 @@ format:
 # Presentation
 This is Bárbara's website!
 
+And this is a turtle
+![A turtle](img/hawksbill_sea_turtle.jpg){#fig-turtle}
+
+The @fig-turtle is cute
+
+[Link to something](https://open.spotify.com/track/6I9VzXrHxO9rA9A5euc8Ak?autoplay_ok=1)
+
 ## Sub presentation
 
 Sub section.
 
+$$z= \dfrac{1-\mu}{\sigma}$${#eq-myequation}
+
 ### Sub sub section
 
-Another sub sub section.
+In @eq-myequation , we wrote down an equation.
  
 #### My paragraph
 
