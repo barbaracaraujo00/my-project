@@ -16,8 +16,73 @@ format:
       light: minty
       dark: superhero
     self-contained: true
-    lang: en
-    bibliography: biblio.bib
-    citation-location: margin
+lang: en
+bibliography: biblio.bib
+citation-location: margin
+execute: 
+    echo: false
 ---
+
+
+
+
+```{r}
+#| echo: true
+#| error: true
+mean(y)
+```
+
+We have the @lst-default here.
+
+```{r}
+#| lst-label: lst-default
+#| lst-cap: Default settings
+head(cars)
+```
+
+```{r}
+#| echo: false
+#| lst-label: lst-echof
+#| lst-cap: Echo false
+head(cars)
+```
+```{r}
+#| echo: true
+#| eval: false
+#| lst-label: lst-echoF
+#| lst-cap: Echo true and eval false
+head(cars)
+```
+
+The @fig-normal shows a normal distribution.
+
+```{r}
+#| label: fig-normal
+#| fig-cap: a normal distribution
+x= seq(-3,3, length.out=10000)
+dx= dnorm(x)
+plot(x, dx, type= "l", cex=2, lwd=3)
+```
+
+@fig-normalProperties illustrates the different kinds of normal distribution and we have:
+(Density)@fig-normalProperties-1, 
+(Cumulative)@fig-normalProperties-2 and 
+(Quantile)@fig-normalProperties-3
+
+
+
+```{r}
+#| layout-ncol: 3
+#| label: fig-normalProperties
+#| fig-cap: Normal distribution
+#| fig-subcap: 
+#|   - "Density"
+#|   - "Cumulative"
+#|   - "Quantile"
+plot(x, dx, type= "l", cex=2, lwd=3)
+plot(x, pnorm(x), type= "l", cex=2, lwd=3)
+plot(pnorm(x), qnorm(pnorm(x)), type= "l", cex=2, lwd=3)
+```
+
+
 
